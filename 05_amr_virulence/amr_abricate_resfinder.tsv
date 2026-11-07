@@ -1,0 +1,4 @@
+#FILE	SEQUENCE	START	END	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION
+./1.major_output_files/assembled_genome_final.fasta	10	90247	90999	ampH_1	21-776/795	========/======	6/13	94.09	80.68	resfinder	AJ276031
+./1.major_output_files/assembled_genome_final.fasta	28	1443	2258	sul2_2	1-816/816	===============	0/0	100.00	100.00	resfinder	GQ421466
+./1.major_output_files/assembled_genome_final.fasta	29	1449	2648	tet(A)_4	1-1200/1200	===============	0/0	100.00	100.00	resfinder	AJ517790

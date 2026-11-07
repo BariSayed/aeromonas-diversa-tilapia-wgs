@@ -1,0 +1,12 @@
+# Aeromonas diversa SAU1 - genome annotation summary
+# Source: Bari et al. (2025) Data in Brief 59:111396, Table 1
+# Annotation pipeline: NCBI PGAP v6.7 (annotation of deposited assembly GCA_040790265.1)
+organism: Aeromonas diversa SAU1
+annotation_pipeline: NCBI PGAP v6.7
+assembly_accession: GCA_040790265.1 (GenBank: JBFMMD000000000)
+total_genes: 3945
+protein_coding_genes: 3823
+rRNA: 3
+tRNA: 87
+ncRNA_total: 122
+pseudogenes: 25

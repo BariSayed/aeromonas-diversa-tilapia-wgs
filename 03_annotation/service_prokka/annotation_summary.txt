@@ -1,0 +1,11 @@
+organism: Aeromonas diversa strain 
+contigs: 33
+bases: 4105655
+CDS: 3812
+gene: 3967
+mRNA: 3967
+misc_RNA: 63
+rRNA: 3
+repeat_region: 1
+tRNA: 88
+tmRNA: 1

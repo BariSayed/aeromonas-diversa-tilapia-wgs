@@ -1,0 +1,46 @@
+# ---------------------------------------------------------------------------
+# Large / raw data -- kept at NCBI (SRA, GenBank) and on the authors' storage,
+# never committed to this repository.
+# ---------------------------------------------------------------------------
+00_raw_data/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.filepart
+
+# Sequence / assembly files (deposited at GenBank; regenerable)
+*.fasta
+*.fa
+*.fna
+*.fsa
+*.ffn
+*.faa
+*.gfa
+*.bam
+*.sam
+
+# PGAP / Prokka heavy outputs (go to GenBank, not GitHub)
+*.gbk
+*.gbff
+*.gff
+*.sqn
+*.tbl
+*.err
+
+# Downloaded NCBI reference genomes / datasets packages (regenerable)
+04_species_id/*/
+04_species_id/ncbi_dataset/
+04_species_id/*.zip
+
+# Heavy tool output directories (regenerable)
+06_functional/antismash_output/
+06_functional/microbeannotator_output/
+
+# Run-time artefacts
+versions.txt
+logs/*.log
+*.tmp
+.DS_Store
+__pycache__/
+*.pyc

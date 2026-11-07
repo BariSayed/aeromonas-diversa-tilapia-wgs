@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+message: "If you use this genome or workflow, please cite the associated Data in Brief article."
+title: "Whole genome sequence data of Aeromonas diversa SAU1, isolated from Tilapia (Oreochromis niloticus)"
+abstract: >-
+  Whole-genome sequence data and analysis workflow for Aeromonas diversa strain
+  SAU1, isolated from diseased Nile tilapia (Oreochromis niloticus) reared in a
+  Recirculating Aquaculture System in Dhaka, Bangladesh. The draft genome was
+  sequenced on Illumina MiSeq, assembled with Unicycler, and annotated with the
+  NCBI Prokaryotic Genome Annotation Pipeline (PGAP).
+type: dataset
+authors:
+  - family-names: Bari
+    given-names: Sayed Mashequl
+    affiliation: Sher-e-Bangla Agricultural University
+  - family-names: Ahammad
+    given-names: Ishtiaque
+    affiliation: National Institute of Biotechnology, Dhaka
+  - family-names: Bhattacharjee
+    given-names: Arittra
+    affiliation: National Institute of Biotechnology, Dhaka
+  - family-names: Shahabuddin
+    given-names: A. M.
+    affiliation: Sher-e-Bangla Agricultural University
+date-released: 2025-02-17
+keywords:
+  - Aeromonas diversa
+  - whole-genome sequencing
+  - tilapia
+  - Oreochromis niloticus
+  - aquaculture
+  - antimicrobial resistance
+  - virulence genes
+identifiers:
+  - type: doi
+    value: 10.1016/j.dib.2025.111396
+  - type: other
+    value: "BioProject:PRJNA1135548"
+  - type: other
+    value: "BioSample:SAMN42485447"
+  - type: other
+    value: "GenBank:JBFMMD000000000"
+  - type: other
+    value: "SRA:SRR29825452"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Whole genome sequence data of Aeromonas diversa SAU1, isolated from Tilapia (Oreochromis niloticus)"
+  authors:
+    - family-names: Bari
+      given-names: Sayed Mashequl
+    - family-names: Ahammad
+      given-names: Ishtiaque
+    - family-names: Bhattacharjee
+      given-names: Arittra
+    - family-names: Shahabuddin
+      given-names: A. M.
+  journal: "Data in Brief"
+  volume: 59
+  start: 111396
+  year: 2025
+  doi: 10.1016/j.dib.2025.111396

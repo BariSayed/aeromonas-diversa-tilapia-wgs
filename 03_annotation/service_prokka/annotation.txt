@@ -1,0 +1,26 @@
+organism: Aeromonas diversa strain 
+contigs: 33
+bases: 4105655
+CDS: 3812
+gene: 3967
+mRNA: 3967
+misc_RNA: 63
+rRNA: 3
+repeat_region: 1
+tRNA: 88
+tmRNA: 1
+
+
+
+RAST
+Contig statistics
+Statistic	As uploaded	After splitting into scaffolds
+Sequence size	4105655	4105655
+Number of contigs	33	33
+GC content (%)	61.6	61.6
+Shortest contig size	1235	1235
+Median sequence size	60577	60577
+Mean sequence size	124413.8	124413.8
+Longest contig size	729309	729309
+N50 value	384764	384764
+L50 value	4	4

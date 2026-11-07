@@ -1,0 +1,16 @@
+# Aeromonas diversa SAU1 - assembly statistics
+# Source: Bari et al. (2025) Data in Brief 59:111396, Table 1
+# (values consistent with the NIB service report)
+organism: Aeromonas diversa SAU1
+assembler: Unicycler v0.4.8
+genome_size_bp: 4105655
+contigs: 33
+N50_bp: 384764
+L50: 4
+longest_contig_bp: 729309
+shortest_contig_bp: 1235
+mean_contig_bp: 124413.8
+median_contig_bp: 60577
+GC_content_percent: 61.63
+average_coverage_x: 945.5
+genome_completeness_percent: 99.5

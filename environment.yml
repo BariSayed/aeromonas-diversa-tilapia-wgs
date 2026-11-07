@@ -1,0 +1,24 @@
+# Conda/mamba environment for reproducing the Aeromonas diversa SAU1 workflow.
+# Create with:  conda env create -f environment.yml
+# Versions are those stated in Bari et al. (2025), Data in Brief 59:111396.
+# After installation, capture exact resolved versions with scripts/record_versions.sh.
+name: adiversa-sau1-wgs
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastp=0.23.2
+  - unicycler=0.4.8
+  - abricate=0.5
+  - microbeannotator=2.0.5
+  - antismash=6
+  - crisprcastyper=1.4.1
+  - blast=2.16.0
+  - mafft=7.525
+  - prokka            # used by the NIB comprehensive-analysis service (version not stated)
+  - ncbi-datasets-cli # retrieve the deposited assembly from NCBI
+  - sra-tools         # retrieve raw reads from the SRA
+# Not installed here (run separately / web services):
+#   - NCBI PGAP v6.7  -> containerised pipeline: https://github.com/ncbi/pgap
+#   - JSpeciesWS (ANI), Proksee v1.0.0a6 (circular plot), iTOL v6 (tree) -> web services
